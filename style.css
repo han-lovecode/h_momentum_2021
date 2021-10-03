@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    position: relative;
+    color: white;
+    
+}
+h2#clock,
+h1#greeting,
+#todo-form,
+#todo-list,
+#quote,
+#weather {    
+    text-align: center;
+    margin-bottom: 25px;    
+}
+h2#clock {
+   padding-top: 100px;
+   font-size: 30px;
+}
+h1#greeting{
+    font-size: 50px;
+}
+#todo-form input {
+    background:transparent;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+}
+#todo-list li {
+    margin: 7px;
+    font-size: 20px;
+}
+#todo-list li span {
+    margin-right: 7px;
+}
+#quote {
+    font-size: 30px;
+}
+#weather {
+    padding-top: 250px;
+    font-size: 20px;
+}
+.hidden {
+    display: none;
+}
+
